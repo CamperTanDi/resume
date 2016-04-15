@@ -1,0 +1,56 @@
+div {
+	font-family: '宋体';
+}
+.table {
+	table-layout: auto; 
+	width: auto; 
+	border-collapse: collapse; 
+}
+.table,.table th, td { 
+	border: 1px solid #BF9660; 
+}
+.table th, td { 
+	padding: 9px; 
+	word-wrap: break-word; 
+	word-break: break-all; 
+}
+.table tr {
+	text-align: center
+}
+#menu { 
+	width: 100%; 
+	overflow: hidden; 
+	margin: 100px auto; 
+	border: 1px solid #BF9660;  
+	}
+#menu #nav { 
+	display: block; 
+	width: 100%; 
+	padding: 0; margin: 0; 
+	list-style: none; 
+}
+#menu #nav li { 
+	float: left; 
+	width: 33.334%; 
+}
+#menu #nav li a { 
+	display: block; 
+	line-height: 27px; 
+	text-decoration: none; 
+	padding: 0 0 0 5px; 
+	text-align: center; 
+	color: #333; 
+}
+#menu_con { 
+	height: auto; 
+	border-top: none; 
+}
+.tag { 
+	padding: 10px; 
+	overflow-x: hidden; 
+	overflow-y: auto; 
+}
+.selected { 
+	background: #C5A069; 
+	color: #fff; 
+}

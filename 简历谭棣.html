@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>简历谭棣</title><!-- 要记得把网页名称改掉啊！！！ -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 初始宽度与初始的缩放比例 -->
+	<meta name="author" content="jdk343@hotmail.com">
+	<link href="css/td.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<h1 style="text-align: center">个人简历</h1>
+	<div style="width: 50%; margin: auto; text-align: center">
+		<div style="float:right; width:133px">
+			<img style="width:100%" src="pic/1寸.jpg" alt="Submit">
+		</div>
+		<table class="table"><!-- 做一个表格……把重复的东西塞到css里面去 -->
+			<tr>
+				<th>姓名</th>
+				<td>谭棣</td>
+				<th>性别</th>
+				<td>男</td>
+				<th>民族</th>
+				<td>汉</td>
+				<th colspan="2">政治面貌</th>
+				<td>团员</td>
+			</tr>
+			<tr>
+				<th>籍贯</th>
+				<td>湘</td>
+				<th colspan="2">出生年月</th>
+				<td colspan="2">1990．05</td>
+				<th colspan="2">生源性质</th>
+				<td>统招</td>
+			</tr>
+			<tr>
+				<th>毕业院校</th>
+				<td colspan="5">沈阳理工大学</td>
+				<th>专业</th>
+				<td colspan="2">自动化</td>
+			</tr>
+			<tr>
+				<th>毕业学历</th>
+				<td colspan="3">本科</td>
+				<th colspan="2">英语水平</th>
+				<td colspan="3">四级</td>
+			</tr>
+			<tr>
+				<th>毕业时间</th>
+				<td>2014年</td>
+				<th colspan="2">身体状况</th>
+				<td>良好</td>
+				<th>身高</th>
+				<td>175cm</td>
+				<th>体重</th>
+				<td>65kg</td>							
+			</tr>
+		</table>
+	</div>
+	<div style="width: 50%; margin-top: 100px; margin-right: auto; margin-left: auto;">
+		<h2 style="text-align: center">自荐信</h2><!-- 然后应该是自述文件 --><!-- 而且还要把这行字往下拖点 -->
+		<div>
+			<div id="menu">
+    			<ul id="nav"><!-- 在href内的#后加任意内容防止跳跃至top -->
+        			<li><a href="#1" class="selected">给HR的信</a></li>
+        			<li><a href="#2" class="">给技术的信</a></li>
+        			<li><a href="#3" class="">给老板的信</a></li>
+        		</ul>
+        		<div id="textzw">
+        			<div class="tag" style="display: block;">
+        				&nbsp;&nbsp;本人姓谭名棣，沈阳理工大学自动化专业本科毕业，工作两年，目前已离职。我待人真诚自信乐观，极富主动性，学生时期就积极参加社团。课余时间学习小提琴，校运会800米第二3000米第六。2014年参加工作，首先在长炼机电从事仪表安装，2015年夏进入北京康纳森公司做技术，经历过两个大项目，参加了数次公司或厂区公会活动。具备英语阅读能力，承担过康纳森对进口仪表案例的翻译工作。<br>
+        				&nbsp;&nbsp;我应聘贵公司的以下职位：前端工程师。尽管我之前并未从事过相关工作，但我对这份工作与其中的技术要求都充满好奇，我会在日常工作中保持极高的士气，主动承担工作并承受压力。如果您觉得我的确不足以胜任此项工作，也请保留我的简历并<a href="javascript:void(0);" onclick="styleDispalyChange()">向我回信</a>，当然，<a href="javascript:void(0);" onclick="CloseResume()">您也可以什么都不做。</a><p id="mailAddress" style="display: none;">jdk343@hotmail.com</p><!-- 诸葛亮也不是生下来就会摇他那把羽扇，我很容易建立起对公司的认同感：带进门的是师傅嘛。 -->
+        			</div> 
+        			<div class="tag" style="display: none;">
+        				&nbsp;&nbsp;我还是个前端纯新，如果您的确觉得我还不错，以后可能会有些烦恼因为……我此前从未接触过这门技术，很多常识都不掌握，可能会问出一些让人笑话的问题。<br>
+        				&nbsp;&nbsp;我之前是一个仪表工程师，分别在中石化长岭炼油厂与北京康纳森流体技术公司工作过，在长岭工作的内容通俗的说：搬管子扛槽钢和设置表——阀连锁动作的逻辑。在康纳森做技术支持。<br>
+        				&nbsp;&nbsp;我现在正在在学习前端技术，开始了一段时间，能写出——您现在正在看的——网页，试过的框架只有bootstrap。我明显的弱势在我根本没有过建立网站和上线网页的经验，我对网站与服务端通信的过程非常好奇，但是除了照抄已有的AJAX框架然后对着一个按钮意淫外，从来没看到过自己做出来的动作。<br>
+        				&nbsp;&nbsp;我的自学能力现在不正在展示嘛，虽然不敢说什么自学成才，心里还是不发虚的。
+        			</div> 
+        			<div class="tag" style="display: none;">
+        				&nbsp;&nbsp;我迫切的希望能够得到这份工作，我的期望薪资不高，上进心强，希望得到赏识或者有展现能力的机会，也希望“被发现”。您可能还有所疑虑，不过既然已经看到这来了，那不如<a href="javascript:void(0);" onclick="telNumber()">通知我过来面试</a>看看？<p id="telNumber" style="display: none;">手机：137 1631 1743</p>
+        			</div>
+        		</div>
+        	</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/td.js"></script>
+</body>
+</html>
